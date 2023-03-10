@@ -1,0 +1,10 @@
+FROM node:14.21.3-alpine3.17
+ENV NODE_ENV=development
+RUN apk update && apk add --no-cache --progress tzdata \
+    && ln -fs /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime
+WORKDIR /app
+USER node
+COPY . .
+VOLUME [ "/app" ]
+CMD ["npm", "run", "start"]
+EXPOSE 3000
