@@ -1,4 +1,4 @@
-import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, Radio, RadioGroup } from '@material-ui/core';
+import { Button, Checkbox, FormControl, FormControlLabel, FormGroup, Radio, RadioGroup } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { Rating } from '@mui/material';
 import DrawerContentCard from './DrawerContentCard';

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { AppBar, Box, IconButton, styled, Toolbar } from '@material-ui/core';
+import { AppBar, Box, IconButton, styled, Toolbar } from '@mui/material';
 
 import { drawerWidth } from './DashboardLayout';
 

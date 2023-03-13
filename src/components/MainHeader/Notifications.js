@@ -1,4 +1,4 @@
-import { Badge, Box, Divider, IconButton, Link, Menu, MenuItem, Typography } from '@material-ui/core';
+import { Badge, Box, Divider, IconButton, Link, Menu, MenuItem, Typography } from '@mui/material';
 import { makeStyles, styled, withStyles } from '@material-ui/styles';
 
 // icons

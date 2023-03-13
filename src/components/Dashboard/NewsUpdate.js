@@ -1,5 +1,5 @@
 import { Link as RouterLink } from 'react-router-dom';
-import { Box, Button, Divider } from '@material-ui/core';
+import { Box, Button, Divider } from '@mui/material';
 import DashCard from './DashCard';
 import DashCardHeader from './DashCardHeader';
 import { GrFormNext } from 'react-icons/gr';

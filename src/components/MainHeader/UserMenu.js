@@ -1,5 +1,4 @@
-// icons
-import { Avatar, Box, Divider, IconButton, Link, Menu, MenuItem, Typography } from '@material-ui/core';
+import { Avatar, Box, Divider, IconButton, Link, Menu, MenuItem, Typography } from '@mui/material';
 import { makeStyles, styled, withStyles } from '@material-ui/styles';
 
 // icons & images

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { userData } from '../../api/userApi';
-import { TableContainer, Table, TableBody, TableRow, TableCell, Checkbox, TablePagination } from '@material-ui/core';
+import { TableContainer, Table, TableBody, TableRow, TableCell, Checkbox, TablePagination } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import TableToolbar from './TableToolbar';
 import UserTableHead from './UserTableHead';
@@ -42,7 +42,6 @@ const TableStyle = styled(Table)(({ theme }) => ({
     },
 }));
 
-////////////////////////////////////////////////
 const descendingComparator = (a, b, orderBy) => {
     if (b[orderBy] < a[orderBy]) return -1;
     if (b[orderBy] > a[orderBy]) return 1;

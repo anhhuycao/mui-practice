@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import { Button, Checkbox, FormControlLabel, IconButton, InputAdornment, Link } from '@material-ui/core';
+import { Button, Checkbox, FormControlLabel, IconButton, InputAdornment, Link } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { TextField } from '@mui/material';
 import { Box } from '@mui/system';

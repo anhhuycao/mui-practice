@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Hidden, styled, Toolbar, Drawer, List, Typography, Avatar, Box } from '@material-ui/core';
-
-// icons & images
+import { Hidden, styled, Toolbar, Drawer, List, Typography, Avatar, Box } from '@mui/material';
 import userAvatar from '../images/avatar_default.jpg';
 import getMoreAvatar from '../images/illustration_avatar.png';
 import { ImPieChart } from 'react-icons/im';
@@ -19,16 +17,13 @@ const NavDrawerStyle = styled('nav')(({ theme }) => ({
     },
 }));
 
-const LogoStyle = styled(Typography)(({ theme }) => ({
-    color: theme.palette.green.darker,
-    margin: 0,
-}));
+const LogoStyle = styled(Typography)(({ theme }) => ({ color: theme.palette.primary.dark, margin: 0 }));
 
 const UserCardStyle = styled(Link)(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
     color: 'inherit',
-    backgroundColor: theme.palette.gray.light,
+    backgroundColor: theme.palette.grey[50],
     margin: '12px',
     padding: '14px 12px',
     borderRadius: theme.spacing(1.5),
@@ -43,7 +38,7 @@ const ListStyle = styled(List)(({ theme }) => ({
 }));
 
 const GetMoreStyle = styled(Box)(({ theme }) => ({
-    backgroundColor: theme.palette.gray.lighter,
+    backgroundColor: theme.palette.grey[100],
     margin: '40px 12px 16px',
     padding: '60px 12px 14px 12px',
     borderRadius: theme.spacing(1.5),
@@ -65,14 +60,14 @@ const GetMoreStyle = styled(Box)(({ theme }) => ({
         textDecoration: 'none',
         fontWeight: 500,
         color: theme.palette.common.white,
-        backgroundColor: theme.palette.green.darker,
+        backgroundColor: theme.palette.primary.dark,
         display: 'block',
         padding: '6px',
         borderRadius: 'inherit',
         transition: 'background 0.3s ease-in',
         boxShadow: '0px 5px 5px white',
         '&:hover': {
-            backgroundColor: theme.palette.green.dark,
+            backgroundColor: theme.palette.primary.dark,
         },
     },
 

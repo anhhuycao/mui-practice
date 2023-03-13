@@ -1,4 +1,4 @@
-import { Box, styled, Typography } from '@material-ui/core';
+import { Box, styled, Typography } from '@mui/material';
 
 const InfoCard = ({ colorId, icon, amount, title }) => {
     const CardStyle = styled(Box)(({ theme }) => ({
@@ -11,13 +11,13 @@ const InfoCard = ({ colorId, icon, amount, title }) => {
         alignItems: 'center',
         backgroundColor:
             colorId === 'green'
-                ? theme.palette.green.light
+                ? theme.palette.primary.light
                 : colorId === 'blue'
-                ? theme.palette.blue.light
+                ? theme.palette.secondary.light
                 : colorId === 'yellow'
-                ? theme.palette.yellow.light
+                ? theme.palette.success.light
                 : colorId === 'maroon'
-                ? theme.palette.maroon.light
+                ? theme.palette.info.light
                 : 'salmon',
         [theme.breakpoints.down('sm')]: {
             paddingTop: theme.spacing(2.5),
@@ -34,13 +34,13 @@ const InfoCard = ({ colorId, icon, amount, title }) => {
         fontSize: theme.spacing(3),
         color:
             colorId === 'green'
-                ? theme.palette.green.main
+                ? theme.palette.primary.main
                 : colorId === 'blue'
-                ? theme.palette.blue.main
+                ? theme.palette.secondary.main
                 : colorId === 'yellow'
-                ? theme.palette.yellow.main
+                ? theme.palette.success.main
                 : colorId === 'maroon'
-                ? theme.palette.maroon.main
+                ? theme.palette.info.main
                 : 'salmon',
         background:
             colorId === 'green'
@@ -60,13 +60,13 @@ const InfoCard = ({ colorId, icon, amount, title }) => {
         fontSize: theme.spacing(3.5),
         color:
             colorId === 'green'
-                ? theme.palette.green.main
+                ? theme.palette.primary.main
                 : colorId === 'blue'
-                ? theme.palette.blue.main
+                ? theme.palette.secondary.main
                 : colorId === 'yellow'
-                ? theme.palette.yellow.main
+                ? theme.palette.success.main
                 : colorId === 'maroon'
-                ? theme.palette.maroon.main
+                ? theme.palette.info.main
                 : 'salmon',
     }));
 
@@ -75,13 +75,13 @@ const InfoCard = ({ colorId, icon, amount, title }) => {
         opacity: 0.75,
         color:
             colorId === 'green'
-                ? theme.palette.green.dark
+                ? theme.palette.primary.dark
                 : colorId === 'blue'
-                ? theme.palette.blue.dark
+                ? theme.palette.secondary.dark
                 : colorId === 'yellow'
-                ? theme.palette.yellow.dark
+                ? theme.palette.success.dark
                 : colorId === 'maroon'
-                ? theme.palette.maroon.dark
+                ? theme.palette.info.dark
                 : 'salmon',
     }));
 

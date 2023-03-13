@@ -1,4 +1,4 @@
-import { Avatar, Grid, Link, Typography } from '@material-ui/core';
+import { Avatar, Grid, Link, Typography } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { Box } from '@mui/system';
 import BlogSocialInfo from './BlogSocialInfo';

@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { Link as RouterLink } from 'react-router-dom';
-import { IconButton, ListItemIcon, ListItemText, Menu, MenuItem } from '@material-ui/core';
+import { IconButton, ListItemIcon, ListItemText, Menu, MenuItem } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { MoreVert } from '@mui/icons-material';
 import { RiDeleteBin6Line } from 'react-icons/ri';

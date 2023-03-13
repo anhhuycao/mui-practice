@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { makeStyles } from '@material-ui/styles';
-import { Box, styled, Toolbar } from '@material-ui/core';
+import { Box, styled, Toolbar } from '@mui/material';
 
 import MainHeader from './MainHeader';
 import SideDrawer from './SideDrawer';

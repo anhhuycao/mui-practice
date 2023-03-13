@@ -1,4 +1,4 @@
-import { IconButton, TextField, Toolbar, Tooltip, Typography } from '@material-ui/core';
+import { IconButton, TextField, Toolbar, Tooltip, Typography } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { RiDeleteBinFill, RiFilter3Fill } from 'react-icons/ri';
 

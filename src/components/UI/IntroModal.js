@@ -1,4 +1,4 @@
-import { Button, Link, Modal, Typography } from '@material-ui/core';
+import { Button, Link, Modal, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
 const IntroModal = ({ showModal, onToggle }) => {

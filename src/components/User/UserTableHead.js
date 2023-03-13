@@ -1,4 +1,4 @@
-import { Checkbox, TableCell, TableHead, TableRow, TableSortLabel } from '@material-ui/core';
+import { Checkbox, TableCell, TableHead, TableRow, TableSortLabel } from '@mui/material';
 import { Box } from '@mui/system';
 import { visuallyHidden } from '@mui/utils';
 

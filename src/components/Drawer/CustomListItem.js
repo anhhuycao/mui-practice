@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { styled, ListItem, ListItemIcon, Typography } from '@material-ui/core';
+import { styled, ListItem, ListItemIcon, Typography } from '@mui/material';
 import { makeStyles } from '@material-ui/styles';
 
 const useStyles = makeStyles((theme) => ({
@@ -23,7 +23,7 @@ const CustomLinkStyle = styled(NavLink)(({ theme }) => ({
     display: 'flex',
     alignItems: 'center',
     textDecoration: 'none',
-    color: theme.palette.gray.main,
+    color: theme.palette.grey[600],
 
     '& .MuiListItemIcon-root': {
         minWidth: 'auto',

@@ -1,4 +1,4 @@
-import { Typography, Link, Container } from '@material-ui/core';
+import { Typography, Link, Container } from '@mui/material';
 import { styled } from '@material-ui/styles';
 import { Box } from '@mui/system';
 import { Helmet } from 'react-helmet';

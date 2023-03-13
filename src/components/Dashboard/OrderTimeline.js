@@ -1,4 +1,4 @@
-import { Timeline } from '@material-ui/lab';
+import { Timeline } from '@mui/lab';
 import { styled } from '@material-ui/styles';
 import DashCard from './DashCard';
 import DashCardHeader from './DashCardHeader';
@@ -15,7 +15,6 @@ const TimelineStyle = styled(Timeline)(({ theme }) => ({
     },
 }));
 
-// timeline list
 const timelineList = [
     {
         title: '1983, orders, $4220',
@@ -48,7 +47,6 @@ const OrderTimeline = () => {
     return (
         <DashCard>
             <DashCardHeader title='Order Timeline' />
-
             <TimelineStyle>
                 {timelineList.map((item, index) => (
                     <OrderTimelineItem

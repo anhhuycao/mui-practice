@@ -1,7 +1,6 @@
-import { Typography } from '@material-ui/core';
+import { Typography } from '@mui/material';
 import { Box } from '@mui/system';
 
-// icon
 import { FaCommentDots, FaEye, FaShare } from 'react-icons/fa';
 
 const BlogSocialInfo = ({ comments, views, shares, color }) => {

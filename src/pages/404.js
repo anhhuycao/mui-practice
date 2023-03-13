@@ -1,4 +1,4 @@
-import { Typography, Button } from '@material-ui/core';
+import { Typography, Button } from '@mui/material';
 import { Box } from '@mui/system';
 import { styled } from '@material-ui/styles';
 import { Link as RouterLink } from 'react-router-dom';
